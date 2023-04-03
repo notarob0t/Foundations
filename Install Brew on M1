@@ -1,0 +1,10 @@
+#to install
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+#to make it work 
+
+cd /opt/homebrew/bin/
+PATH=$PATH:/opt/homebrew/bin
+cd
+touch .zshrc
+echo export PATH=$PATH:/opt/homebrew/bin >> .zshrc
