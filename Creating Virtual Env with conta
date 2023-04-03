@@ -1,0 +1,2 @@
+#k27 is the name and the python version used will be 2.7
+conda create -n k27 python=2.7
