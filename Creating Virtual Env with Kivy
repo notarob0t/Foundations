@@ -1,9 +1,12 @@
-#k27 is the name and the python version used will be 2.7 - and activating the environment with source command 
-conda create -n k27 python=2.7
+#k27 is the name and the python version used will be 3.5 - and activating the environment with source command 
+conda create -n k27 python=3.5
 source activiate k27
 
 #with the environment ready to go - lets move on to Kivy
+
 pip install pygame
 conda install pillow
 conda install cython=0.23
 USE_OSX_FRAMEWORKS=0 pip install -I --no-cache-dir --no-binary all kivy
+
+#If you get an error on the last command, check the pip version, you might need to upgrade your pip
